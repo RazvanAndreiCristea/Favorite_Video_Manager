@@ -8,4 +8,4 @@ Acest proiect se concentrează pe crearea unei platforme/aplicații care oferă 
   TBA
 ## Autor
 
-Creat de Răzvan-Andrei Cristea 1115 ID CSIE student 
+Răzvan-Andrei Cristea 1115 ID CSIE student 
