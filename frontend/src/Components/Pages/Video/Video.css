@@ -1,0 +1,33 @@
+/* Define a CSS class for the selected state */
+.selected {
+    background-color: #1EC4F6;
+    color: white;
+}
+
+.display_buttons{
+    margin-top: 16px;
+    position: center;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+/* Define a CSS class for the selected state */
+
+.boxing{
+    box-shadow: 0 0 40px aqua;
+    background-color: aqua;
+}
+
+.SelectedVideo {
+    background-color: aquamarine;
+    border-radius: 8px;
+    box-shadow: 0 0 20px aqua;
+    color: black;   
+}

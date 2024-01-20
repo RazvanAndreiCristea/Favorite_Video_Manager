@@ -1,0 +1,73 @@
+/* User.css */
+
+/* Stilizare pentru pagina principala */
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+.boxing{
+    box-shadow: 0 0 40px aqua;
+    background-color: aqua;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.url{
+    color: darkblue;
+}
+
+.url:hover{
+    color: purple;
+}
+
+.url::after{
+    background-color: whitesmoke;
+}
+.SelectedUser {
+    background-color: aquamarine;
+    border-radius: 8px;
+    box-shadow: 0 0 20px aqua;
+    color: black;   
+}
+
+/* Stilizare pentru butoanele de acțiune */
+.UserActionBar {
+    display: flex;
+    justify-content: space-between; /* Aliniere butoane pe aceeași linie */
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Stilizare pentru informațiile utilizatorului */
+.UserInfo {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+/* Stilizare pentru font */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.display_buttons{
+    margin-top: 16px;
+    position: center;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}

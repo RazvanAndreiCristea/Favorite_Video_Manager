@@ -1,0 +1,61 @@
+/* UserForm.css */
+
+.VideoForm {
+    padding: 20px;
+    background-color: aquamarine;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.formField {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    border-radius: 4%;  
+    flex-direction: row;
+}
+
+.submitButton,
+.cancelButton {
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.submitButton {
+    background-color: #4caf50;
+}
+
+.cancelButton {
+    background-color: #d9534f;
+}
+
+.submitButton:hover,
+.cancelButton:hover {
+    background-color: grey;
+}
